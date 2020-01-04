@@ -15,12 +15,12 @@ public class BasicSeleniumCommands {
 		 */
 
 		// Instantiate a Browser - Open Browser
-		// Chrome
+		// Chrome Browser
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
-		// Firefox
+		// Firefox Browser
 		System.setProperty("webdriver.gecko.driver",
  				"C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Drivers\\geckodriver.exe");
 		WebDriver driver1 = new FirefoxDriver();
