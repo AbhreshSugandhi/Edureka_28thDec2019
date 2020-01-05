@@ -1,7 +1,10 @@
 package module2;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Facebook {
@@ -21,24 +24,36 @@ public class Facebook {
 		
 			//Name
 			driver.findElement(By.name("lastname")).sendKeys("Sugandhi");
-			
+			/*
 			//ClassName
 			driver.findElement(By.className("inputtext login_form_input_box")).sendKeys("Abhresh");
 			
 			driver.findElement(By.className("inputtext login_form_input_box")).sendKeys("Sugandhi");
 			
 			//LinkText
+			driver.findElement(By.linkText("Forgotten account?")).click();
 			
 			//navigate backward
+			driver.navigate().back();
 			
 			//PartialLinktext
+			driver.findElement(By.partialLinkText("ten acc")).click();
+			*/
 			
 			//CSS
+			driver.findElement(By.cssSelector("#u_0_r")).sendKeys("9876543210");
 			
 			//TagName
+			List<WebElement> List = driver.findElements(By.tagName("a"));
+			
+			System.out.println(List.size());
 			
 			//Xpath
+			driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/a")).click();
 			
+			driver.navigate().back();
+			
+			driver.findElement(By.xpath("//*[@id='reg_pages_msg']/a")).click();
 
 			
 			
