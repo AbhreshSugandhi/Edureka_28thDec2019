@@ -6,15 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import Common.BrowserClass;
 
-public class DragDrop {
+public class DragDrop extends BrowserClass {
 
 	public static void main(String[] args) {
 		// Open Chrome Browser
-				System.setProperty("webdriver.chrome.driver",
-						"C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Drivers\\chromedriver.exe");
-				WebDriver driver = new ChromeDriver();
-
+		OpenBrowser("Chrome");
+		
 		//Open AUT
 		driver.get("https://jqueryui.com/droppable/");
 		

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64" started-at="2020-01-19T23:14:10 IST" finished-at="2020-01-19T23:14:10 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64" started-at="2020-01-19T23:14:10 IST" finished-at="2020-01-19T23:14:10 IST">
+      <class name="module6.Priority2">
+        <test-method status="PASS" signature="Banglore()[pri:0, instance:module6.Priority2@3632be31]" name="Banglore" duration-ms="14" started-at="2020-01-19T23:14:10 IST" finished-at="2020-01-19T23:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Banglore -->
+        <test-method status="PASS" signature="Hyderabad()[pri:0, instance:module6.Priority2@3632be31]" name="Hyderabad" duration-ms="1" started-at="2020-01-19T23:14:10 IST" finished-at="2020-01-19T23:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hyderabad -->
+        <test-method status="PASS" signature="Pune()[pri:0, instance:module6.Priority2@3632be31]" name="Pune" duration-ms="1" started-at="2020-01-19T23:14:10 IST" finished-at="2020-01-19T23:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pune -->
+        <test-method status="PASS" signature="Mumbai()[pri:1, instance:module6.Priority2@3632be31]" name="Mumbai" duration-ms="1" started-at="2020-01-19T23:14:10 IST" finished-at="2020-01-19T23:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mumbai -->
+        <test-method status="PASS" signature="Chennai()[pri:3, instance:module6.Priority2@3632be31]" name="Chennai" duration-ms="1" started-at="2020-01-19T23:14:10 IST" finished-at="2020-01-19T23:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chennai -->
+      </class> <!-- module6.Priority2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
