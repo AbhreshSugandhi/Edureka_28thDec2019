@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupingSuiteExecution">
+	<test name="Run Specific Group">
+		<groups>
+			<run>
+				<exclude name="LoginLogout"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="module6.Grouping1"></class>
+		</classes>
+	</test>
+</suite>

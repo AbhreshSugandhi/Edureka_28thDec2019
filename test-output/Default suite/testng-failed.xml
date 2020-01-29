@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module6.Dependency">
+      <class name="module7.GRIDTest">
         <methods>
-          <include name="Logout"/>
+          <include name="QuitBrowser"/>
+          <include name="Validate"/>
+          <include name="openBrowser"/>
           <include name="OpenAUT"/>
-          <include name="Login"/>
         </methods>
-      </class> <!-- module6.Dependency -->
+      </class> <!-- module7.GRIDTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

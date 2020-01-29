@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParellelTestingSuite" parallel="tests">
+	<test name="TestingParellelTestExecutionUsingChrome">
+		<parameter name="B" value="Chrome"></parameter>
+		<classes>
+			<class name="module6.GitHubLogin_Parallel"></class>
+		</classes>
+	</test>
+	<test name="TestingParellelTestExecutionUsingFirefox">
+		<parameter name="B" value="Firefox"></parameter>
+		<classes>
+			<class name="module6.GitHubLogin_Parallel"></class>
+		</classes>
+	</test>
+</suite>

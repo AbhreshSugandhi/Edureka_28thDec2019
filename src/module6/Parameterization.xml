@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ParameterizationTestSuite">
+	<test name="TestingUserCredentials">
+		<parameter name="Uname" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Pass" value="Edureka@123"></parameter>
+		<classes>
+			<class name="module6.GitHubLogin2"></class>
+		</classes>
+	</test>
+</suite>

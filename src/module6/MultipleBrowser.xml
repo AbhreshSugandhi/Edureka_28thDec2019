@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameterization">
+	<test name="Chrome">
+		<parameter name="B" value="Chrome"></parameter>
+		<parameter name="UName" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Pass" value="Edureka@123"></parameter>
+		<classes>
+			<class name="module6.GitHubLogin_CrossBrowser"></class>
+		</classes>
+	</test>
+
+	<test name="Firefox">
+		<parameter name="B" value="Firefox"></parameter>
+		<parameter name="UName" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Pass" value="Edureka@123"></parameter>
+		<classes>
+			<class name="module6.GitHubLogin_CrossBrowser"></class>
+		</classes>
+	</test>
+
+	<test name="Chrome2">
+		<parameter name="B" value="Chrome"></parameter>
+		<parameter name="UName" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Pass" value="Edureka@123"></parameter>
+		<classes>
+			<class name="module6.GitHubLogin_CrossBrowser"></class>
+		</classes>
+	</test>
+</suite>

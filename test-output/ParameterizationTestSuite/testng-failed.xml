@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParameterizationTestSuite]">
+  <test thread-count="5" name="TestingUserCredentials1(failed)">
+    <parameter name="Uname" value="tabhresh@gmail.com"/>
+    <parameter name="Pass" value="Edureka@123"/>
+    <classes>
+      <class name="module6.GitHubLogin2">
+        <methods>
+          <include name="Logout"/>
+          <include name="CloseTestCase"/>
+          <include name="URLValidation"/>
+          <include name="Browser"/>
+          <include name="OpenAUT"/>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- module6.GitHubLogin2 -->
+    </classes>
+  </test> <!-- TestingUserCredentials1(failed) -->
+  <test thread-count="5" name="TestingUserCredentials2(failed)">
+    <parameter name="Uname" value="tabhresh@gmail.com"/>
+    <parameter name="Pass" value="Edureka@123"/>
+    <classes>
+      <class name="module6.GitHubLogin2">
+        <methods>
+          <include name="Logout"/>
+          <include name="CloseTestCase"/>
+          <include name="URLValidation"/>
+          <include name="Browser"/>
+          <include name="OpenAUT"/>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- module6.GitHubLogin2 -->
+    </classes>
+  </test> <!-- TestingUserCredentials2(failed) -->
+</suite> <!-- Failed suite [ParameterizationTestSuite] -->
