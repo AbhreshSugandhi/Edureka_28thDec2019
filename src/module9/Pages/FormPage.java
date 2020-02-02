@@ -22,7 +22,7 @@ public class FormPage {
 	@FindBy(id="ts_address")
 	WebElement Address;
 
-	public void FormFill(String FName, String LName, String Add) {
+	public void FormFill(String FName, String LName, String Add) throws InterruptedException {
 
 		FirstName.clear();
 		FirstName.sendKeys(FName);
@@ -33,6 +33,7 @@ public class FormPage {
 		Address.clear();
 		Address.sendKeys(Add);
 		
+		Thread.sleep(5000);
 	}
 	
 	
