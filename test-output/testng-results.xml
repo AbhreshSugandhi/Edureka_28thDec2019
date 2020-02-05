@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53915" started-at="2020-02-01T23:21:14 IST" finished-at="2020-02-01T23:22:08 IST">
+  <suite name="DataDrivenTesting" duration-ms="62300" started-at="2020-02-03T16:04:09 IST" finished-at="2020-02-03T16:05:12 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53915" started-at="2020-02-01T23:21:14 IST" finished-at="2020-02-01T23:22:08 IST">
+    <test name="DDTTestExecutions" duration-ms="62300" started-at="2020-02-03T16:04:09 IST" finished-at="2020-02-03T16:05:12 IST">
       <class name="module9.TestCases.DDT">
-        <test-method status="PASS" signature="Open()[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="Open" is-config="true" duration-ms="10205" started-at="2020-02-01T23:21:04 IST" finished-at="2020-02-01T23:21:14 IST">
+        <test-method status="PASS" signature="Open()[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="Open" is-config="true" duration-ms="13058" started-at="2020-02-03T16:03:56 IST" finished-at="2020-02-03T16:04:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5509" started-at="2020-02-01T23:21:15 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:21:21 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="6310" started-at="2020-02-03T16:04:12 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:04:18 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5291" started-at="2020-02-01T23:21:21 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:21:26 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5953" started-at="2020-02-03T16:04:18 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:04:24 IST">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5309" started-at="2020-02-01T23:21:26 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:21:31 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5983" started-at="2020-02-03T16:04:24 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:04:30 IST">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5311" started-at="2020-02-01T23:21:31 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:21:37 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5969" started-at="2020-02-03T16:04:30 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:04:36 IST">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5278" started-at="2020-02-01T23:21:37 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:21:42 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5938" started-at="2020-02-03T16:04:36 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:04:42 IST">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5290" started-at="2020-02-01T23:21:42 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:21:47 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5978" started-at="2020-02-03T16:04:42 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:04:48 IST">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5288" started-at="2020-02-01T23:21:47 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:21:52 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5914" started-at="2020-02-03T16:04:48 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:04:54 IST">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5289" started-at="2020-02-01T23:21:52 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:21:58 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5911" started-at="2020-02-03T16:04:54 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:05:00 IST">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5350" started-at="2020-02-01T23:21:58 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:22:03 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5986" started-at="2020-02-03T16:05:00 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:05:06 IST">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFill -->
-        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@35d176f7]" name="FormFill" duration-ms="5284" started-at="2020-02-01T23:22:03 IST" data-provider="testDataFeed" finished-at="2020-02-01T23:22:08 IST">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCases.DDT@6ebc05a6]" name="FormFill" duration-ms="5888" started-at="2020-02-03T16:05:06 IST" data-provider="testDataFeed" finished-at="2020-02-03T16:05:12 IST">
           <params>
             <param index="0">
               <value>
@@ -222,6 +222,6 @@
           </reporter-output>
         </test-method> <!-- FormFill -->
       </class> <!-- module9.TestCases.DDT -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- DDTTestExecutions -->
+  </suite> <!-- DataDrivenTesting -->
 </testng-results>

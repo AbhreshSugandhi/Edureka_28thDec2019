@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>DDTTestExecutions</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 01 22:47:34 IST 2020</td>
+<td>Started on:</td><td>Mon Feb 03 16:04:09 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (101 ms)</td>
+<tr><td>Total time:</td><td>62 seconds (62300 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,95 +67,63 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT</td>
-<td><div><pre>java.lang.RuntimeException: java.io.IOException: org/apache/xmlbeans/XmlException
-	at java.util.ArrayList.forEach(Unknown Source)
-Caused by: java.io.IOException: org/apache/xmlbeans/XmlException
-	at org.apache.poi.ss.usermodel.WorkbookFactory.createWorkbook(WorkbookFactory.java:353)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.createXSSFWorkbook(WorkbookFactory.java:316)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:234)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:200)
-	at module9.TestCases.DDT.testDataFeed(DDT.java:56)
-	... 25 more
-Caused by: java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlException
-	at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.createWorkbook(XSSFWorkbookFactory.java:88)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.createWorkbook(XSSFWorkbookFactory.java:135)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.createWorkbook(WorkbookFactory.java:341)
-	... 36 more
-Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlException
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 43 more
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1164799006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1164799006'><pre>java.lang.RuntimeException: java.io.IOException: org/apache/xmlbeans/XmlException
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:820)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.IOException: org/apache/xmlbeans/XmlException
-	at org.apache.poi.ss.usermodel.WorkbookFactory.createWorkbook(WorkbookFactory.java:353)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.createXSSFWorkbook(WorkbookFactory.java:316)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:234)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:200)
-	at module9.TestCases.DDT.testDataFeed(DDT.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
-	... 25 more
-Caused by: java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlException
-	at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.createWorkbook(XSSFWorkbookFactory.java:88)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.createWorkbook(XSSFWorkbookFactory.java:135)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.createWorkbook(WorkbookFactory.java:341)
-	... 36 more
-Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlException
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 43 more
-</pre></div></td>
-<td>0</td>
-<td>module9.TestCases.DDT@35d176f7</td></tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Amit, Jain, Gujrat</td>
+<td></td>
+<td>6</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Sam, Joseph, Goa</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Sumit, Pandey, Delhi</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: James, Desuza, Mumbai</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Rohit, Joshi, Pune</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Jain, Amit, Gujrat</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Joseph, Sam, Goa</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Pandey, Sumit, Delhi</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Desuza, James, Mumbai</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
+<tr>
+<td title='module9.TestCases.DDT.FormFill()'><b>FormFill</b><br>Test class: module9.TestCases.DDT<br>Parameters: Joshi, Rohit, Pune</td>
+<td></td>
+<td>5</td>
+<td>module9.TestCases.DDT@6ebc05a6</td></tr>
 </table><p>
 </body>
 </html>
