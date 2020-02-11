@@ -12,19 +12,15 @@ public class Sikuli extends BrowserClass {
 	
 		OpenBrowser("Chrome");
 		
-		driver.get("https://www.instagram.com/");
+		driver.get("https://www.facebook.com/");
+		
+		driver.manage().window().maximize();
 		
 		Screen s = new Screen();
 		
 		Thread.sleep(5000);
 
-		Pattern ClickLogin = new Pattern("C:\\Users\\abhre\\eclipse-workspace\\Edureka_28thDec2019\\AutoITSikuli\\Capture1.JPG");
-		
-		Pattern enterEmail = new Pattern("C:\\Users\\abhre\\eclipse-workspace\\Edureka_28thDec2019\\AutoITSikuli\\Capture2.JPG");
-		
-		s.click(ClickLogin);
-		
-		s.type(enterEmail, "Edureka");
+		s.getScreen().click("C:\\Users\\abhre\\Pictures\\125.JPG");
 		
 	}
 

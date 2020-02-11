@@ -30,6 +30,6 @@
 	<classpathentry kind="lib" path="C:/Users/abhre/Documents/GSync/PCSync/Poi Jars/poi-4.1.0/poi-ooxml-schemas-4.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/abhre/Documents/GSync/PCSync/Poi Jars/poi-4.1.0/poi-scratchpad-4.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/abhre/Documents/GSync/PCSync/Poi Jars/poi-4.1.0/xmlbeans-3.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/abhre/Documents/GSync/PCSync/Sikuli Jar/sikulixapi-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhre/Documents/GSync/PCSync/Sikuli Jar/sikulix.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
